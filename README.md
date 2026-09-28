@@ -1,6 +1,7 @@
  CSPM Agent
 
 An agentic Cloud Security Posture Management (CSPM) tool that automatically evaluates the security posture of a Cloud tenancy. The agent uses an LLM to drive security checks (based on CIS benchmark) across compute, storage, networking, and IAM resources via OCI API calls and local network scanning tools. This CSPM agent runs on Oracle Cloud Infrasructure (OCI) tenancy, and can be easily extended to other clouds.
+NOTE: CSPM agent can be modified to run on other CSPs
 
 ## How it works
 
